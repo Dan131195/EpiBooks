@@ -15,19 +15,25 @@ body {
 }
 
 .myCard {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: space-between !important;
   padding: 0;
 }
 
 .myCard img {
-    width: 100% !important;
-    height: 20rem;
+  width: 100% !important;
+  height: 20rem;
 }
 
 .card-body {
-    background-color: #212529;
+  background-color: #212529;
+}
+
+.card-title {
+  overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 
 #spedition img {
