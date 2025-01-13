@@ -14,6 +14,10 @@ body {
   width: 4.2rem;
 }
 
+.myInput {
+  width: 20rem;
+}
+
 .myCard {
   padding: 0;
 }
